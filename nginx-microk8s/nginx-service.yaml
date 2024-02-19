@@ -7,6 +7,6 @@ spec:
     app: nginx
   ports:
     - protocol: TCP
-      port: 995
-      targetPort: 995
-  type: LoadBalancer
+      port: 80
+      targetPort: 80
+  type: NodePort
